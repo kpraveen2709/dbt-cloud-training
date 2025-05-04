@@ -44,4 +44,7 @@ models:
       +materialized: table
     reporting:
       +materialized: table
+    #dbt_project.yml
+vars:
+  surrogate_key_treat_nulls_as_empty_strings: true #turn on legacy behaviour
 
